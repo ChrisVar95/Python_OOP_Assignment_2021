@@ -1,12 +1,12 @@
 # Python_OOP_Assignment_2021
 
-Author : Christina Vargka C20737009
-Date Reviewed : 18/12/2021
-Program that simulates an ATM machine where Customers can view and manage their accounts.
-Summary:
+### Author : Christina Vargka C20737009
+### Date Reviewed : 18/12/2021
+## Program that simulates an ATM machine where Customers can view and manage their accounts.
+### Summary:
 -	Classes : Bank -> Customer -> Account == CheckingAccount/SavingAccount
 -	Main Functions : ATM(), Account_Choice(), Menu()
-CLASSES:
+## CLASSES:
 -	Bank(object): Holds any necessary about the Bank. There are default values set.
 o	__init__: Initializes its Name, Address, Country and Interest Rate. 
                  All of them are set as private.
@@ -47,7 +47,7 @@ Ensures balance - amount to be withdrawn is not smaller than credit limit
 o	write_and_withdraw _amount: Similar to write_and_withdraw _amount() in SavingAccount()
 Has a different output.
 o	__str__(): Prints out checking account information as well as the inherited __str__ from Account() and __str__ from Customer()
-MAIN FUNCTIONS:
+## MAIN FUNCTIONS:
 -	ATM(): Main interface for Customers. Allows customers to log in or create their account.
 Related functions:
 o	enter_customer_details: for ATM() Inputs details of a customer then returns a dictionary with their information.
@@ -75,7 +75,7 @@ OTHER FUCNTIONS:
 -	search_dic_list: Searches through the list of dictionaries read from a txt file.
 -	days_between: Returns absolute difference between two dates
 
-USER MANUAL
+## USER MANUAL
 Run program and it will call functions and create files as required. To transfer to another account please refer to the accounts.txt file and enter the required Acc_ID value when prompted.
 Each transaction and account have a unique ID
 ‘ID’ = Customer ID
@@ -84,7 +84,7 @@ Each transaction and account have a unique ID
 Pressing 0 in any of the menus will exit the program
 Pressing 9 will Log user out
 
-CHALLENGES
+## CHALLENGES
 -	The time constraint was one of the biggest challenges to overcome. 
 -	I had disproportionately huge issue figuring out how to properly structure the objects. The result worked for what I envisioned. 
 -	Having a comprehensive function structure and what I can or cannot implement as a method.
